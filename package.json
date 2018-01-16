@@ -1,0 +1,19 @@
+{
+  "name": "yubilock",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "screensaver": "^2.0.0",
+    "usb-detection": "^2.0.1"
+  },
+  "scripts": {
+    "start": "node .",
+    "autostart:enable": "autostart enable -n \"yubilock\" -p \"$PWD\" -c \"yarn start\"",
+    "autostart:check": "autostart check -n \"yubilock\"",
+    "autostart:disable": "autostart disable -n \"yubilock\""
+  },
+  "devDependencies": {
+    "node-autostart": "^3.0.3"
+  }
+}
