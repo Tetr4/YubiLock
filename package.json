@@ -7,6 +7,9 @@
     "screensaver": "^2.0.0",
     "usb-detection": "^2.0.1"
   },
+  "resolutions": {
+    "osx-screensaver": "2.0.1"
+  },
   "scripts": {
     "start": "node .",
     "autostart:enable": "autostart enable -n \"yubilock\" -p \"$PWD\" -c \"yarn start\"",

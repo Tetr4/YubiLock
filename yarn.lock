@@ -407,9 +407,9 @@ os-locale@^1.4.0:
   dependencies:
     lcid "^1.0.0"
 
-osx-screensaver@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/osx-screensaver/-/osx-screensaver-2.1.0.tgz#600f755580488d2cc05b8d4f43773e86a496d6f5"
+osx-screensaver@2.0.1, osx-screensaver@^2.1.0:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/osx-screensaver/-/osx-screensaver-2.0.1.tgz#3a2ff50ec852d80045d98dc1bf06b85dba650cd9"
   dependencies:
     pify "^2.2.0"
     pinkie-promise "^1.0.0"
